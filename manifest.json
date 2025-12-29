@@ -1,0 +1,9 @@
+{
+  "name": "Do Tell Extension",
+  "description": "An extension to help you tell what you do.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "main.html"
+  }
+}

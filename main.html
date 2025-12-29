@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Do Tell</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <div>
+        <h1 id="today-date"></h1>
+        <p id="week-day"></p>
+      </div>
+      <button>See archive</button>
+    </section>
+    <form id="journal-form" method="post">
+      <label for="work-input">What did you do today?</label>
+      <textarea
+        id="work-input"
+        name="work-input"
+        placeholder="Any meetings? Any bugs discovered? Any new topics came up?"
+        type="text"
+        required
+      ></textarea>
+      <div>
+        <button>Keep working</button>
+        <input type="submit">I'm done for the day</input>
+      </div>
+    </form>
+    <script src="date.js"></script>
+    <script src="work-journal.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
