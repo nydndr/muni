@@ -1,7 +1,7 @@
 {
-  "name": "Do Tell Extension",
-  "description": "An extension to help you tell what you do.",
-  "version": "1.0",
+  "name": "Muni",
+  "description": "A work journal for this week, this month or this quarter.",
+  "version": "0.1",
   "manifest_version": 3,
   "action": {
     "default_popup": "main.html"
